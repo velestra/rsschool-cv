@@ -1,1 +1,1 @@
-# rsschool-cv
+https://velestra.github.io/rsschool-cv/
