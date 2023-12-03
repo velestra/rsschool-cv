@@ -1,1 +1,1 @@
-https://velestra.github.io/rsschool-cv/cv
+https://velestra.github.io/rsschool-cv/
