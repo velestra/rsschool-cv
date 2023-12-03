@@ -1,0 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+.heading1 {
+  font-size: 64px;
+  font-weight: 500;
+  font-family: serif;
+}
