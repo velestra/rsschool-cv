@@ -1,8 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 html {
   scroll-behavior: smooth;
+}
+body {
+  background-color: #ecf0f1;
+  color: #2c3e50;
 }
 .heading1 {
   font-size: 64px;
   font-weight: 500;
   font-family: serif;
+}
+.heading2 {
+  font-size: 48px;
+  font-weight: 500;
+  font-family: serif;
+}
+ul {
+  padding: 15px;
+  margin: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+li {
+  padding-left: 0;
+  font-size: 32px;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+.header_nav,
+.header_name {
+  background-color: #ffa500;
+}
+.header_name {
+  width: 60%;
+  position: absolute;
 }
