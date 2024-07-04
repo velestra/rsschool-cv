@@ -51,6 +51,23 @@ a {
   margin: 20px 0;
   padding-left: 10px;
 }
+.projects_img {
+  width: 300px;
+  height: 169px;
+}
+.projects_ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.projects_li {
+  margin: 0;
+}
+.skill_img {
+  width: 25px;
+}
 p {
   margin: 15px 0;
 }
