@@ -10,18 +10,19 @@ html {
 body {
   background-color: #ecf0f1;
   color: #2c3e50;
+  font-family: serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 .heading1 {
   font-size: 64px;
   font-weight: 500;
-  font-family: serif;
 }
 .heading2 {
   font-size: 48px;
   font-weight: 500;
-  font-family: serif;
 }
-ul {
+.nav_ul {
   padding: 15px;
   margin: 15px;
   list-style: none;
@@ -30,7 +31,7 @@ ul {
   align-items: center;
   gap: 20px;
 }
-li {
+.nav_li {
   padding-left: 0;
   font-size: 32px;
   font-weight: 500;
@@ -39,11 +40,20 @@ a {
   text-decoration: none;
   color: #2c3e50;
 }
+.main {
+  width: 60%;
+}
 .header_nav,
 .header_name {
   background-color: #ffa500;
 }
 .header_name {
-  width: 60%;
-  position: absolute;
+  margin: 20px 0;
+  padding-left: 10px;
+}
+p {
+  margin: 15px 0;
+}
+aside {
+  width: 40%;
 }
