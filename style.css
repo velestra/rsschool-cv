@@ -48,7 +48,7 @@ a {
   background-color: #ffa500;
 }
 .header_name {
-  margin: 20px 0;
+  margin: 0 0 20px 0;
   padding-left: 10px;
 }
 .projects_img {
@@ -73,4 +73,18 @@ p {
 }
 aside {
   width: 40%;
+}
+.avatar {
+  width: 40%;
+}
+.avatar_img {
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
