@@ -37,6 +37,9 @@ body {
   margin: 0 0 25px 0;
   padding: 0;
 }
+.main h3 {
+  margin: 0;
+}
 .nav_ul {
   padding: 15px;
   margin: 15px;
