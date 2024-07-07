@@ -1,0 +1,171 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  font-family: serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.heading1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+.heading2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+.heading2::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 48px;
+  background-color: #ffa500;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.main .heading2 {
+  margin: 0 0 25px 0;
+  padding: 0;
+}
+.main h3 {
+  margin: 0;
+}
+.nav_ul {
+  padding: 15px;
+  margin: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.nav_li {
+  padding-left: 0;
+  font-size: 32px;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+.main {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.header_nav,
+.header_name {
+  background-color: #ffa500;
+}
+.header_name {
+  margin: 0 0 20px 0;
+  padding-left: 10px;
+}
+.projects,
+.code {
+  margin: 0;
+}
+.projects_img {
+  width: 300px;
+  height: 169px;
+}
+.projects_ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.projects_li {
+  margin: 0;
+}
+p {
+  margin: 15px 0;
+}
+
+aside {
+  position: relative;
+  background-color: #2c3e50;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
+  width: 40%;
+}
+.avatar {
+  width: 40%;
+}
+.avatar_img {
+  width: 100%;
+  margin-top: 25px;
+}
+.aside {
+  width: 320px;
+}
+.skill_img {
+  width: 25px;
+}
+.wrapper {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+aside .heading2 {
+  margin-bottom: 20px;
+}
+.contacts {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 35px;
+}
+aside a {
+  color: #ffffff;
+}
+
+.devider {
+  width: 100%;
+  height: 2px;
+  background-color: #ffa500;
+  margin: 20px 0;
+}
+footer {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.git {
+  width: 150px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 0 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+}
+.git img {
+  width: 30px;
+}
+.school {
+  margin: 0 15px 0 0;
+}
+.school_svg {
+  width: 80px;
+}
+span {
+  font-size: 18px;
+  font-weight: 500;
+}
